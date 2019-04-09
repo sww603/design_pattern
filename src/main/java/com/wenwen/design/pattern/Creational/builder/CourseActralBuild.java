@@ -4,6 +4,7 @@ package com.wenwen.design.pattern.Creational.builder;
  * Created by sww_6 on 2019/4/7.
  */
 public class CourseActralBuild extends CourseBuild {
+
     private Course course = new Course();
 
     public void buildCourseName(String courseName) {
