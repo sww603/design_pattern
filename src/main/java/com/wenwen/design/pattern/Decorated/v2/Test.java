@@ -12,5 +12,9 @@ public class Test {
     aPancakes = new AggDecorator(aPancakes);
     aPancakes = new SausageDecorator(aPancakes);
     System.out.println(aPancakes.getDesc()+"销售价格："+aPancakes.cost());
-}
+    /*Ccc ccc = new Ccc();
+    ccc.aaa();
+    ccc.bbb();
+    System.out.println(ccc);*/
+  }
 }
